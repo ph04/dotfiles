@@ -1,0 +1,48 @@
+shell:
+  program: /bin/zsh
+
+# window.opacity: 0.7
+background_opacity: 0.8 # deprecated, but not yet actually
+
+colors:
+  # Default colors
+  selection:
+    text: CellForeground
+    background: '#36476b'
+
+  primary:
+    background: '0x283246'
+    foreground: '0xc9d2e2'
+
+    dim_foreground: '#eff0f1'
+    bright_foreground: '#ffffff'
+    dim_background: '#31363b'
+    bright_background: '#000000'
+    
+    normal:
+      black: '#23252b'
+      red: '#b54036'
+      green: '#5ab977'
+      yellow: '#deb566'
+      blue: '#6a7c93'
+      magenta: '#a4799d'
+      cyan: '#3f94a8'
+      white: '#e6e8ef'
+    bright:
+      black: '#23252b'
+      red: '#b54036'
+      green: '#5ab977'
+      yellow: '#deb566'
+      blue: '#6a7c93'
+      magenta: '#a4799d'
+      cyan: '#3f94a8'
+      white: '#ebedf2'
+    dim:
+      black: '#31363b'
+      red: '#783228'
+      green: '#17a262'
+      yellow: '#b65619'
+      blue: '#1b668f'
+      magenta: '#614a73'
+      cyan: '#186c60'
+      white: '#63686d'
