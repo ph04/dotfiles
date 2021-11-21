@@ -2,13 +2,18 @@
 My dotfiles
 
 # WIP
-- [ ] CONTINUA A COPIARE PACMAN E PINKNORD
 
-https://github.com/primalkaze/bspwm-dots
-https://github.com/zodd18/PinkNord/tree/1b1d42034b52e9990702d766fad499614ce7b676
+- [ ] CONTINUA A COPIARE [PACMAN](https://github.com/primalkaze/bspwm-dots) E [PINKNORD](https://github.com/zodd18/PinkNord/tree/1b1d42034b52e9990702d766fad499614ce7b676)
 
-- [ ] CAMBIA POSIZIONE A POLYBAR PERCHE NON HA SENSO CHE STIA DOVE STA ORA
-- [ ] prova kitty
+- [ ] cambia cava e committa (innecessario in realtà vabbe)
+- [ ] committa nvim e ranger
+- [ ] implementa finestre floating (o se lo sono gia capisci come funzionano)
+- [ ] fixa ranger
+- [ ] controlla di poter cancellare i file in bspwm/bin
+- [ ] controlla di poter cancellare le cartelle dentro rofi (probabilmente si)
+- [ ] cambia sfondo a betterlockscreen
+- [ ] RICOMMITTA TUTTO QUANTO
+- [ ] cambia loghi powermenu polybar e aggiungici esci sessione
 - [ ] controlla se puoi cancellare bspwm/rofiOLD
 - [ ] fare in modo che alla sospensione appaia betterlockscreen
 - [ ] volume polybar e dunst non sono syncati (probabilmente per farlo dovrai fare un custom script, che due coglioni)
@@ -19,9 +24,18 @@ https://github.com/zodd18/PinkNord/tree/1b1d42034b52e9990702d766fad499614ce7b676
 - [ ] status bar vim decente, che non ci sono mai riuscito
 - [ ] capire come cambiare sddm, e decidere cosa fare più che altro
 - [ ] modifica i colori del testo selezionato su vim che fanno cagare
-- [ ] cerca di capire perche le icone di polybar di alcune cose non cambiano, tipo spotify o dunst
 - [ ] fai qualcosa per le emoji per polybar (solo proprio se c'hai sbatta però)
 
+- [x] cambia il colore rosso del tema di kitty per matcharlo con polybar
+- [x] cambia colore e spessore al bordo delle finestre in focus di bspwm
+- [x] cambia colori a rofi
+- [x] inserisci margini a kitty
+- [x] metti più gap a bspwm
+- [x] capire perche cazzo ci sta uno spazio della madonna tra polybar e finestre (si è fixato da solo)
+- [x] sfondo
+- [x] CAMBIA POSIZIONE ALLA CARTELLA POLYBAR PERCHE NON HA SENSO CHE STIA DOVE STA ORA
+- [x] prova kitty
+- [x] cambia colorscheme a kitty matchandola con polybar
 - [x] super alt s spectacle -brc
 - [x] tasto Print per gli screen, perche non funziona, RISOLTO KINDA
 - [x] refresha polybar allo start, per il bug del volume
