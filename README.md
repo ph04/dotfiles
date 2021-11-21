@@ -5,10 +5,15 @@ My dotfiles
 
 - [ ] CONTINUA A COPIARE [PACMAN](https://github.com/primalkaze/bspwm-dots) E [PINKNORD](https://github.com/zodd18/PinkNord/tree/1b1d42034b52e9990702d766fad499614ce7b676)
 
+- [ ] MERGIA LE DUE PARTIZIONI, CAZZO
+
+- [ ] SOLO SE HAI LE PALLE DI FARLO DAVVERO customizza grub customizza grub
+- [ ] polybar, metti gli spazi alle icone del powermenu
 - [ ] cambia cava e committa (innecessario in realtà vabbe)
-- [ ] committa nvim e ranger
+- [ ] committa nvim e ranger e dunst (quando hai fatto)
 - [ ] implementa finestre floating (o se lo sono gia capisci come funzionano)
 - [ ] fixa ranger
+- [ ] fixa foto in ranger
 - [ ] controlla di poter cancellare i file in bspwm/bin
 - [ ] controlla di poter cancellare le cartelle dentro rofi (probabilmente si)
 - [ ] cambia sfondo a betterlockscreen
@@ -19,7 +24,6 @@ My dotfiles
 - [ ] volume polybar e dunst non sono syncati (probabilmente per farlo dovrai fare un custom script, che due coglioni)
 - [ ] aggiungi sospendi al modulo tutto a destra di polybar (bspc quit)
 - [ ] ricopia dunst completamente
-- [ ] controlla se riesci a cambiare il raggio di rofi (non necessario)
 - [ ] vedi se riesci a mettere spazio tra icona e nome dell'app in rofi (non necessario)
 - [ ] status bar vim decente, che non ci sono mai riuscito
 - [ ] capire come cambiare sddm, e decidere cosa fare più che altro
