@@ -45,10 +45,8 @@ border-color = ${colors.background}
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Inconsolata CondensedBlack:size=12;3"
-font-1 = "Mochiy Pop P One:pixelsize=12;4"
-font-2 = "Material Design Icons:pixelsize=15;5"
-font-3 = "Iosevka Nerd Font:size=12;3"
+font-0 = "Iosevka Nerd Font:style=Bold:size=11;3"
+font-1 = "Mochiy Pop One:pixelsize=12;3"
 
 modules-left = bspwm
 modules-center = windowtitle spotify
@@ -71,8 +69,6 @@ ws-icon-5 = "6;六"
 ws-icon-6 = "7;七"
 ws-icon-7 = "8;八"
 ws-icon-8 = "9;九"
-
-format = <label-state> <label-mode>
 
 label-focused = %icon%
 label-focused-background = ${colors.pink}
@@ -107,7 +103,7 @@ format-foreground = ${colors.background}
 format-padding = 4
 label = "  %title%"
 label-maxlen = 100
-label-empty = "  "
+label-empty = " "
 label-empty-font = 3
 label-separator = " "
 label-empty-foreground = ${colors.background}
@@ -160,7 +156,7 @@ format-prefix-foreground = #ffffff
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 
-label = " %mb_used%"
+label = "  %mb_used% "
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -191,7 +187,7 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = "  "
+label-open = "   "
 label-open-foreground = ${colors.background}
 label-open-background = ${colors.red}
 label-close = "  Cancel "
@@ -200,11 +196,11 @@ label-close-background = ${colors.red}
 label-separator = |
 label-separator-foreground = ${colors.foreground}
 
-menu-0-0 = 
+menu-0-0 = " "
 menu-0-0-exec = #powermenu.open.1
-menu-0-1 = 
+menu-0-1 = " "
 menu-0-1-exec = #powermenu.open.2
-menu-0-2 = 
+menu-0-2 = " "
 menu-0-2-exec = #powermenu.open.3
 menu-0-3 = " "
 menu-0-3-exec = #powermenu.open.4
