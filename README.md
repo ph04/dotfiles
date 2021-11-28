@@ -10,6 +10,7 @@ My dotfiles
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
 - [ ] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 - [ ] fai lo swap file coglione
+- [ ] misa che devi cambiare la roba di cargo, disinstallare e reinstallare
 
 ## zsh
 
