@@ -13,6 +13,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vifm/vifm.vim'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 colorscheme tokyonight
