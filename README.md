@@ -42,7 +42,8 @@ My dotfiles
 ## nvim
 
 - [x] sostanzialmente non funziona un cazzo, ma perche non ho reinstallato plug, poi da li forse le cose si autosistemano
-- [ ] cambia tema a nvim che fa cacare il cazzo
+- [x] cambia tema a nvim che fa cacare il cazzo
+- [ ] cambia quella cosa fastidiosissima di coc
 
 ## autokey
 
