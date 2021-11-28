@@ -12,6 +12,7 @@ My dotfiles
 ## zsh
 
 - [ ] sposta la cosa dei tasti fn da un'altra parte, che non è possibile che ogni volta che parte il terminale riscrive il file, è ridicolo e stupido
+- [x] il tema è osceno, non capisco niente, e l'autocompletamento fish-like non funziona e non capisco perché
 
 ## picom
 
@@ -42,7 +43,3 @@ My dotfiles
 ## autokey
 
 - [ ] come al solito non funziona, prova a vedere se puoi sostituirlo con sxhkd
-
-## zsh
-
-- [ ] il tema è osceno, non capisco niente, e l'autocompletamento fish-like non funziona e non capisco perché
