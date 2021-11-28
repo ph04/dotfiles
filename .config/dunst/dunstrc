@@ -15,11 +15,11 @@ frame_width = 3
 frame_color = "#c394b4"
 separator_color = "#404859"
 
-font = Iosevka Custom 9
+font = Iosevka Nerd Font 9
 
 line_height = 0
 markup = full
-format = "<span size='x-large' font_desc='Iosevka Custom 9' weight='Regular' foreground='#c394b4'>%s</span>\n\n%b"
+format = "<span size='x-large' font_desc='Iosevka Nerd Font 9' weight='Regular' foreground='#c394b4'>%s</span>\n\n%b"
 alignment = center
 
 idle_threshold = 120
