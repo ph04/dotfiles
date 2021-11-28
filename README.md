@@ -1,7 +1,7 @@
 # dotfiles
 My dotfiles
 
-[test](purpwallpaper.png)
+[test](./purpwallpaper.jpg)
 
 # COSE DA FIXARE
 
