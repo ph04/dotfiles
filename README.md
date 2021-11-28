@@ -24,7 +24,7 @@ My dotfiles
 - [ ] sistema betterlockscreen (e fai in modo che appaia dopo la sospensione)
 - [x] numeri in alto a sinistra (probabilmente è un problema del font, ma non lo so in realtà)
 - [x] le icone sono a metà (mi da molto fastidio)
-- [ ] tutte le icone sono leggermente spostate a destra
+- [ ] powermenu è praticamente da rifare da capo
 - [ ] solito bug del volume non syncato con livello di alsa (probabilmente la causa è pulseaudio)
 - [ ] icone modulo powermenu polybar sono brutte da morire, cambiale per favore, e aggiungi chiudi sessione (bspc quit)
 - [x] modulo di spotify è rotto (forse è per colpa di come ho installato, avrei dovuto installarlo come snap, o forse non c'entra un cazzo no lo so)
