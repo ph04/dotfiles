@@ -9,6 +9,10 @@ My dotfiles
 
 - [ ] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 
+## zsh
+
+- [ ] sposta la cosa dei tasti fn da un'altra parte, che non è possibile che ogni volta che parte il terminale riscrive il file, è ridicolo e stupido
+
 ## picom
 
 - [ ] capire perché dopo la sospensione non si riavvia da solo
