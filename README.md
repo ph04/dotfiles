@@ -1,6 +1,8 @@
 # dotfiles
 My dotfiles
 
+[test](purpwallpaper.png)
+
 # COSE DA FIXARE
 
 ## generale
