@@ -28,7 +28,7 @@ My dotfiles
 
 ## dunst
 
-- [ ] il font del titolo è rotto
+- [x] il font del titolo è rotto
 - [ ] non ho capito se le shortcut che prima funzionavano ora funzionino, ma me pare de no
 
 ## nvim
