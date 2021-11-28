@@ -32,6 +32,7 @@ My dotfiles
 - [x] modulo di spotify è rotto (forse è per colpa di come ho installato, avrei dovuto installarlo come snap, o forse non c'entra un cazzo no lo so)
 - [ ] se hai voglia risolvi il problema delle emoji
 - [x] powermenu a destra quando la scheda di firefox è troppo grande come titolo si schiaccia tutto perche non ha spazio dove essere renderizzato, non so come fixare onestamente boh
+- [ ] capisci se puoi togliere polybar quando vai in fullscreen mode (a dire il vero non so neanche se è un problema di polybar o di bspwm, da capire)
 
 ## dunst
 
