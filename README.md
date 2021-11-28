@@ -24,6 +24,7 @@ My dotfiles
 - [ ] icone modulo powermenu polybar sono brutte da morire, cambiale per favore, e aggiungi chiudi sessione (bspc quit)
 - [x] modulo di spotify è rotto (forse è per colpa di come ho installato, avrei dovuto installarlo come snap, o forse non c'entra un cazzo no lo so)
 - [ ] se hai voglia risolvi il problema delle emoji
+- [ ] powermenu a destra quando la scheda di firefox è troppo grande come titolo si schiaccia tutto perche non ha spazio dove essere renderizzato, non so come fixare onestamente boh
 
 ## dunst
 
