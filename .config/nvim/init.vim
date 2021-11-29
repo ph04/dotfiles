@@ -1,7 +1,7 @@
 inoremap jj <Esc>
 set rnu!
 
-let g:airline_theme = "peaksea"
+let g:airline_theme = "pinknord"
 
 let g:tokyonight_transparent = "true"
 let g:tokyonight_transparent_sidebar = "true"
