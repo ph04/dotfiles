@@ -102,5 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias rm="rm -i"
 
+# Path
+export PATH="$PATH:/home/alessmanj/.emacs.d/bin"
+
 # Commands
 #sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode"
