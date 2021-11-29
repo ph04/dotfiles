@@ -13,8 +13,9 @@ My dotfiles
 
 ## emacs
 
-- [ ] metti autosave e opacità all'85%
-- [ ] committa /.doom.d/config.el
+- [ ] metti autosave
+- [x] metti opacità all'85%
+- [x] committa tutto
 
 ## zsh
 
