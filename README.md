@@ -13,7 +13,7 @@ My dotfiles
 
 ## grub
 
-- [ ] committa grub
+- [x] committa grub
 - [ ] mostra più caratteri di quelli che ora si vedono, che non posso manco leggere la versione del kernel
 
 ## emacs
