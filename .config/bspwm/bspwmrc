@@ -54,6 +54,7 @@ bspc rule -a Firefox:Places state=floating follow=on focus=on
 bspc rule -a Viewnior state=floating follow=on focus=on
 bspc rule -a Conky state=floating manage=off
 bspc rule -a stalonetray state=floating manage=off
+bspc rule -a Emacs state=tiled
 
 ## Autostart -------------------------------#
 
