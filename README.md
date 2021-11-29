@@ -11,6 +11,11 @@ My dotfiles
 - [ ] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 - [x] fai lo swap file coglione
 
+## grub
+
+- [ ] committa grub
+- [ ] mostra più caratteri di quelli che ora si vedono, che non posso manco leggere la versione del kernel
+
 ## emacs
 
 - [ ] metti autosave
