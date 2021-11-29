@@ -106,4 +106,5 @@ alias rm="rm -i"
 export PATH="$PATH:/home/alessmanj/.emacs.d/bin"
 
 # Commands
+pokemon-colorscripts -r
 #sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode"
