@@ -12,6 +12,10 @@ My dotfiles
 - [x] fai lo swap file coglione
 - [ ] disinstalla cargo e installa rustup
 
+## sddm
+
+- [ ] committa tema
+
 ## grub
 
 - [x] committa grub
