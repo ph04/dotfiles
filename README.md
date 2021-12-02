@@ -40,6 +40,7 @@ My dotfiles
 
 ## polybar
 
+- [ ] aggiungi temperature cpu e gpu
 - [ ] sistema betterlockscreen (e fai in modo che appaia dopo la sospensione)
 - [x] numeri in alto a sinistra (probabilmente è un problema del font, ma non lo so in realtà)
 - [x] le icone sono a metà (mi da molto fastidio)
