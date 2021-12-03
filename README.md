@@ -38,6 +38,7 @@ My dotfiles
 - [x] leva selezioni delle cose che non capisco un cazzo
 - [ ] rimouvi blur da telegram
 - [ ] rimuovi blur da zoom
+- [ ] aggiungi animazioni che da il tocco che manca
 
 ## polybar
 
