@@ -131,7 +131,9 @@ cursor_blink_interval      0
 
 shell zsh
 
+window_margin_width 25
+
 # BEGIN_KITTY_THEME
-# Fideloper
+# Orange Dark
 include current-theme.conf
 # END_KITTY_THEME
