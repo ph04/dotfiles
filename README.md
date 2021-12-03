@@ -1,7 +1,7 @@
 # dotfiles
 My dotfiles
 
-![test](./purpwallpaper.jpg)
+![test](./waterfalls.jpg)
 
 # COSE DA FIXARE
 
