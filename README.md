@@ -37,7 +37,7 @@ My dotfiles
 - [ ] capire perché dopo la sospensione e anche dopo che lo schermo è andato in stand by (che non so è una cosa hardware o software) non si riavvia da solo
 - [x] leva selezioni delle cose che non capisco un cazzo
 - [ ] rimouvi blur da telegram
-- [ ] rimuovi blur da zoom
+- [ ] rimuovi blur da zoom CONTROLLA SE FIXATO
 - [ ] aggiungi animazioni che da il tocco che manca
 
 ## polybar
