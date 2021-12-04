@@ -9,16 +9,6 @@ super + Return
 # Rofi App Launcher
 super + d
 	rofi -modi drun -show drun
-	
-super + v
-	pavucontrol
-	
-super + shift + n
-	kitty -e ncmpcpp
-
-# Rofi Network Menu
-super + n
-	nmd
 
 # Rofi Menus
 super + w
@@ -34,19 +24,19 @@ super + alt + s
 	spectacle -bcr
 
 # Brighness control
-XF86MonBrightness{Up,Down}
-	backlight{-up,-down}
+#XF86MonBrightness{Up,Down}
+#	backlight{-up,-down}
 	
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume}
-	volume{-up,-down}
+	pulseaudio-ctl {up,down}
 
 XF86AudioMute
 	amixer set Master toggle
 	
 # Music control
-XF86Audio{Next,Prev,Play,Stop}
-	mpc {next,prev,toggle,stop}
+XF86Audio{Next,Prev,Play}
+	playerctl {next,previous,play-pause}
 
 ##---------- Bspwm ----------##
 
@@ -66,7 +56,7 @@ super + alt + {q,r}
 super + q
 	bspc node -c
 
-# kill
+# Kill
 super + alt + Escape
     bspc quit
 
@@ -126,5 +116,29 @@ super + alt + {Left,Right,Up,Down}
 alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-##---------- EOF ----------##
+##---------- Missing Keys -----------###
 
+ctrl + shift + z
+	echo "<" | tr -d '\n' | xclip -selection clipboard
+
+ctrl + shift + x
+	echo ">" | tr -d '\n' | xclip -selection clipboard
+
+ctrl + shift + 1
+	echo "\`" | tr -d '\n' | xclip -selection clipboard
+
+ctrl + shift + 2
+	echo "~" | tr -d '\n' | xclip -selection clipboard
+
+##---------- Misc -----------##
+
+super + s
+	spotify
+
+super + shift + f
+	firefox
+
+super + e
+	dolphin
+
+##---------- EOF ----------##
