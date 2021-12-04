@@ -10,7 +10,7 @@ My dotfiles
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
 - [x] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 - [x] fai lo swap file coglione
-- [ ] disinstalla cargo e installa rustup
+- [x] disinstalla cargo e installa rustup
 
 ## sddm
 
@@ -37,20 +37,25 @@ My dotfiles
 
 - [ ] capire perché dopo la sospensione e anche dopo che lo schermo è andato in stand by (che non so è una cosa hardware o software) non si riavvia da solo
 - [x] leva selezioni delle cose che non capisco un cazzo
-- [ ] rimouvi blur da telegram
+- [ ] rimouvi blur da telegram CONTROLLA SE FIXATO
 - [ ] rimuovi blur da zoom CONTROLLA SE FIXATO
-- [ ] aggiungi animazioni che da il tocco che manca
+- [x] aggiungi animazioni che da il tocco che manca
+
+## betterlockscreen
+
+- [ ] sistema betterlockscreen
+- [ ] fai in modo che appaia dopo la sospensione
 
 ## polybar
 
 - [ ] RIFAI POLYBAR (se hai voglia e tempo)
 - [ ] aggiungi temperature cpu e gpu
-- [ ] sistema betterlockscreen (e fai in modo che appaia dopo la sospensione)
 - [x] numeri in alto a sinistra (probabilmente è un problema del font, ma non lo so in realtà)
 - [x] le icone sono a metà (mi da molto fastidio)
 - [ ] powermenu è praticamente da rifare da capo
-- [ ] pulseaudio-ctl up funziona correttamente, e ora l'audio non so perche ma sembra essere syncato con alsa, volendo fai anche audio del mic magari
-- [ ] icone modulo powermenu polybar sono brutte da morire, cambiale per favore, e aggiungi chiudi sessione (bspc quit)
+- [x] pulseaudio-ctl up funziona correttamente, e ora l'audio non so perche ma sembra essere syncato con alsa
+- [ ] fai anche audio del mic
+- [ ] icone modulo powermenu polybar sono brutte da morire, cambiale per favore
 - [x] modulo di spotify è rotto (forse è per colpa di come ho installato, avrei dovuto installarlo come snap, o forse non c'entra un cazzo no lo so)
 - [ ] se hai voglia risolvi il problema delle emoji
 - [x] powermenu a destra quando la scheda di firefox è troppo grande come titolo si schiaccia tutto perche non ha spazio dove essere renderizzato, non so come fixare onestamente boh
