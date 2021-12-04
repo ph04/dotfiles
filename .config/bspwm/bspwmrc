@@ -92,7 +92,7 @@ exec polybar main -c $HOME/.config/polybar/config &
 #exec autokey-qt &
 #exec
 exec polybar-msg cmd restart &
-#exec sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode" &
+exec sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode" &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
