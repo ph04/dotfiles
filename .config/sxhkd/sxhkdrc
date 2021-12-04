@@ -42,7 +42,7 @@ XF86Audio{Next,Prev,Play}
 
 # Lockscreen
 super + alt + l
-    betterlockscreen -l
+    betterlockscreen --lock blur
 
 # Reload Keybindings
 super + Escape
