@@ -14,7 +14,8 @@ My dotfiles
 
 ## sddm
 
-- [ ] committa tema
+- [ ] considera di cambiare tema
+- [ ] committa il tema
 
 ## grub
 
@@ -42,6 +43,7 @@ My dotfiles
 
 ## polybar
 
+- [ ] RIFAI POLYBAR (se hai voglia e tempo)
 - [ ] aggiungi temperature cpu e gpu
 - [ ] sistema betterlockscreen (e fai in modo che appaia dopo la sospensione)
 - [x] numeri in alto a sinistra (probabilmente è un problema del font, ma non lo so in realtà)
@@ -55,6 +57,7 @@ My dotfiles
 - [ ] capisci se puoi togliere polybar quando vai in fullscreen mode (a dire il vero non so neanche se è un problema di polybar o di bspwm, da capire) NO PIÙ CHE ALTRO CAPIRE PERCHE OGNI TANTO LO FA E OGNI TANTO NO BOH (credo lo faccia solamente dopo che lo schermo è andato in stand by)
 - [ ] diminuisci len max xwindow
 - [ ] aggiungi processi in background (zoom e forse autokey)
+- [ ] che cazzo era quel bug stranissimo
 
 ## dunst
 
