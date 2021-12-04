@@ -61,14 +61,14 @@ My dotfiles
 - [ ] se hai voglia risolvi il problema delle emoji
 - [x] powermenu a destra quando la scheda di firefox è troppo grande come titolo si schiaccia tutto perche non ha spazio dove essere renderizzato, non so come fixare onestamente boh
 - [ ] capisci se puoi togliere polybar quando vai in fullscreen mode (a dire il vero non so neanche se è un problema di polybar o di bspwm, da capire) NO PIÙ CHE ALTRO CAPIRE PERCHE OGNI TANTO LO FA E OGNI TANTO NO BOH (credo lo faccia solamente dopo che lo schermo è andato in stand by)
-- [ ] diminuisci len max xwindow
+- [x] diminuisci len max xwindow
 - [ ] aggiungi processi in background (zoom e forse autokey)
 - [ ] che cazzo era quel bug stranissimo
 
 ## dunst
 
 - [x] il font del titolo è rotto
-- [ ] non ho capito se le shortcut che prima funzionavano ora funzionino, ma me pare de no
+- [ ] fixa le shortcut
 
 ## nvim
 
