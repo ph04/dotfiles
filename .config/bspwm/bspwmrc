@@ -16,6 +16,7 @@ getcolors () {
 	MAGENTA=$(xrdb -query | grep 'color5:'| awk '{print $NF}')
 	CYAN=$(xrdb -query | grep 'color6:'| awk '{print $NF}')
 	WHITE=$(xrdb -query | grep 'color7:'| awk '{print $NF}')
+	#PINK=$(echo "#c394b4")
 	PINK=$(echo "#C97D54")
 }
 getcolors
