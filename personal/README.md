@@ -71,6 +71,7 @@
 
 ## dunst
 
+- [ ] sistema la posizione di quando spawna per matchare le finestre (solo se hai voglia però)
 - [ ] fixa le shortcut
 - [x] il font del titolo è rotto
 
