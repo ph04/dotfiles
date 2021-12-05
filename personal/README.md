@@ -9,6 +9,10 @@
 - [x] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 - [x] fai lo swap file coglione
 - [x] disinstalla cargo e installa rustup
+- [ ] committa sxhkd
+- [ ] committa polybar
+- [ ] commmitta bspwm
+- [ ] committa kitty
 
 ## sddm
 
