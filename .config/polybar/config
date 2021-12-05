@@ -25,15 +25,19 @@ magenta = #BF616A
 white = #D8DEE9
 ; pink = #c394b4
 pink = #C97D54
+idk = #c4d99c
 blue = #81a1c1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [bar/main]
-width = 100%
-height = 22
+width = 1880
+height = 25
 radius = 0.0
 fixed-center = true
+
+offset-x = 20
+offset-y = 15
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -47,12 +51,13 @@ border-color = ${colors.background}
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Iosevka Nerd Font:style=Bold:size=11;3"
-font-1 = "Mochiy Pop One:pixelsize=12;3"
+font-0 = "Iosevka Nerd Font:style=Bold:size=10;3"
+font-1 = "Mochiy Pop One:pixelsize=11;3"
+font-2 = "Iosevka Nerd Font:style=Bold:size=14;4"
 
 modules-left = bspwm
 modules-center = windowtitle spotify
-modules-right = memory volume date powermenu
+modules-right = cputemp gputemp memory volume date powermenu
 
 cursor-click = pointer
 cursor-scroll = pointer
@@ -104,7 +109,7 @@ format-background = ${colors.cyan}
 format-foreground = ${colors.background}
 format-padding = 3
 label = "  %title%"
-label-maxlen = 75
+label-maxlen = 60
 label-empty = " "
 label-empty-font = 3
 label-separator = " "
@@ -134,6 +139,30 @@ format-muted-padding = 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+[module/cputemp]
+type = custom/script
+interval = 2
+format-prefix = "﨏  "
+format = <label>
+format-background = ${colors.cyan}
+format-foreground = ${colors.background}
+format-padding = 1
+exec = ~/.config/polybar/scripts/cputemp.sh
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[module/gputemp]
+type = custom/script
+interval = 2
+format-prefix = "﨏  "
+format = <label>
+format-background = ${colors.cyan}
+format-foreground = ${colors.background}
+format-padding = 1
+exec = ~/.config/polybar/scripts/gputemp.sh
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 [module/spotify]
 type = custom/script
 tail = true
@@ -152,11 +181,11 @@ interval = 3
 
 format = <label>
 
-format-prefix = ﬙
-format-prefix-font = 4
-format-prefix-foreground = #ffffff
-format-background = ${colors.background}
-format-foreground = ${colors.foreground}
+format-prefix = " ﬙"
+format-prefix-font = 1
+format-background = ${colors.cyan}
+format-foreground = ${colors.background}
+format-prefix-foreground = ${colors.background}
 
 label = "  %mb_used% "
 
@@ -174,9 +203,9 @@ time-alt = "%H:%M:%S  "
 
 format-prefix-padding = 2
 format-prefix-font = 2
-format-prefix-foreground = #ffffff
-format-background = ${colors.background}
-format-foreground = ${colors.foreground}
+format-prefix-foreground = ${colors.background}
+format-background = ${colors.cyan}
+format-foreground = ${colors.background}
 
 label = %date% %time%
 
@@ -195,17 +224,33 @@ label-open-background = ${colors.red}
 label-close = "  Cancel "
 label-close-foreground = ${colors.background}
 label-close-background = ${colors.red}
-label-separator = |
+label-separator = ""
 label-separator-foreground = ${colors.foreground}
 
-menu-0-0 = " "
+menu-0-0 = "    "
+menu-0-0-font = 1
 menu-0-0-exec = #powermenu.open.1
-menu-0-1 = " "
+menu-0-0-background = ${colors.red}
+menu-0-0-foreground = ${colors.background}
+
+menu-0-1 = "   "
+menu-0-1-font = 1
 menu-0-1-exec = #powermenu.open.2
-menu-0-2 = " "
+menu-0-1-background = ${colors.red}
+menu-0-1-foreground = ${colors.background}
+
+menu-0-2 = "  "
+menu-0-2-font = 3
 menu-0-2-exec = #powermenu.open.3
-menu-0-3 = " "
+menu-0-2-background = ${colors.red}
+menu-0-2-foreground = ${colors.background}
+; menu-0-2-padding = 1
+
+menu-0-3 = "  "
+menu-0-3-font = 1
 menu-0-3-exec = #powermenu.open.4
+menu-0-3-background = ${colors.red}
+menu-0-3-foreground = ${colors.background}
 
 menu-1-0 = 
 menu-1-0-exec = #powermenu.open.0
@@ -238,7 +283,7 @@ screenchange-reload = true
 ;pseudo-transparency = false
 
 [global/wm]
-;margin-top = 5
-;margin-bottom = 5
+; margin-top = 0
+; margin-bottom = 0
 
 ; vim:ft=dosini
