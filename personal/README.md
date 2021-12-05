@@ -1,6 +1,3 @@
-# dotfiles
-My dotfiles
-
 ![test](./waterfalls.jpg)
 
 # COSE DA FIXARE
