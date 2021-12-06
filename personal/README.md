@@ -26,6 +26,9 @@
 - [ ] considera di cambiare l'immagine di doom (a dire il vero no so se si può fare kek)
 - [ ] vedi se c'è un tema migliore per doom
 - [ ] metti autosave
+- [ ] metti uno splash text
+- [ ] prova a vedere se puoi cambiare leggermente la funzione
+- [ ] committa tutto
 - [x] metti opacità all'85%
 - [x] committa tutto
 
