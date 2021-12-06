@@ -9,6 +9,7 @@
 - [x] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 - [x] fai lo swap file coglione
 - [x] disinstalla cargo e installa rustup
+- [ ] il comando dei tasti fn non può essere runnato dove viene runnato attualmente, perche probabilemnte essendo sudo non funziona, quindi va spostato ma non so dove
 
 ## sddm
 
