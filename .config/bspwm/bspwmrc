@@ -87,7 +87,8 @@ nitrogen --restore &
 exec picom --experimental-backends &
 exec polybar main -c $HOME/.config/polybar/config &
 exec polybar-msg cmd restart &
-exec sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode" &
+#exec sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode" &
+exec ~/.config/bspwm/scripts/fn_fix.sh &
 exec betterlockscreen -u /usr/share/wallpapers/waterfalls.jpg &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
