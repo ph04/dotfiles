@@ -4,6 +4,16 @@
 super + Return
 	kitty
 
+##---------- Dunst -----------##
+ctrl + space
+	dunstctl close
+
+ctrl + alt + space
+	dunstctl close-all
+
+ctrl + shift + space
+	dunstctl history-pop
+
 ##---------- Rofi Launcher & Menus ----------##
 
 # Rofi App Launcher
