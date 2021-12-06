@@ -4,6 +4,7 @@
 
 ## generale
 
+- [ ] committa dunst
 - [ ] cerca di fare xclip che incolli in automatico
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
 - [x] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
@@ -72,7 +73,7 @@
 
 ## dunst
 
-- [ ] sistema la posizione di quando spawna per matchare le finestre (solo se hai voglia però)
+- [x] sistema la posizione di quando spawna per matchare le finestre (solo se hai voglia però)
 - [ ] fixa le shortcut
 - [x] il font del titolo è rotto
 
