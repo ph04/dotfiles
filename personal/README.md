@@ -5,6 +5,7 @@
 ## generale
 
 - [ ] cerca di fare xclip che incolli in automatico
+- [ ] cambia file manager che fa cacare il cazzo
 - [x] committa dunst
 - [x] committa sxhkd
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
