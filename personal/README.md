@@ -5,6 +5,7 @@
 ## generale
 
 - [ ] committa dunst
+- [ ] committa sxhkd
 - [ ] cerca di fare xclip che incolli in automatico
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
 - [x] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
@@ -74,7 +75,7 @@
 ## dunst
 
 - [x] sistema la posizione di quando spawna per matchare le finestre (solo se hai voglia però)
-- [ ] fixa le shortcut
+- [ ] fixa le shortcut (a quanto pare era un problema che non derivava da dunst ma da sxhkd)
 - [x] il font del titolo è rotto
 
 ## nvim
