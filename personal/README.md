@@ -9,10 +9,6 @@
 - [x] i fottuti tasti fn funzionano come cazzo gli pare, non riesco a modificare il volume dai tasti e non capisco perché
 - [x] fai lo swap file coglione
 - [x] disinstalla cargo e installa rustup
-- [ ] committa sxhkd
-- [ ] committa polybar
-- [ ] commmitta bspwm
-- [ ] committa kitty
 
 ## sddm
 
@@ -26,6 +22,8 @@
 
 ## emacs
 
+- [ ] considera di cambiare l'immagine di doom (a dire il vero no so se si può fare kek)
+- [ ] vedi se c'è un tema migliore per doom
 - [ ] metti autosave
 - [x] metti opacità all'85%
 - [x] committa tutto
@@ -50,16 +48,14 @@
 
 ## polybar
 
-- [x] RIFAI POLYBAR (se hai voglia e tempo)
-- [x] aggiungi temperature cpu e gpu
-- [ ] powermenu è praticamente da rifare da capo
 - [ ] SISTEMA POWERMENU PORCA DI UNA PUTTANA
 - [ ] fai anche audio del mic
-- [ ] icone modulo powermenu polybar sono brutte da morire, cambiale per favore
 - [ ] se hai voglia risolvi il problema delle emoji
 - [ ] capisci se puoi togliere polybar quando vai in fullscreen mode (a dire il vero non so neanche se è un problema di polybar o di bspwm, da capire) NO PIÙ CHE ALTRO CAPIRE PERCHE OGNI TANTO LO FA E OGNI TANTO NO BOH (credo lo faccia solamente dopo che lo schermo è andato in stand by)
-- [ ] aggiungi processi in background (zoom e forse autokey)
-- [ ] che cazzo era quel bug stranissimo
+- [ ] aggiungi processi in background (tipo zoom o droidcam)
+- [x] che cazzo era quel bug stranissimo (dovrei aver capito)
+- [x] RIFAI POLYBAR (se hai voglia e tempo)
+- [x] aggiungi temperature cpu e gpu
 - [x] modifica il cazzo di spazio che mi da un botto fastidio sopra
 - [x] le icone sono a metà (mi da molto fastidio)
 - [x] numeri in alto a sinistra (probabilmente è un problema del font, ma non lo so in realtà)
@@ -78,5 +74,6 @@
 ## nvim
 
 - [ ] cambia quella cosa fastidiosissima di coc
+- [ ] cambia tema che deve matchare il resto ora
 - [x] sostanzialmente non funziona un cazzo, ma perche non ho reinstallato plug, poi da li forse le cose si autosistemano
 - [x] cambia tema a nvim che fa cacare il cazzo
