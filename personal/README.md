@@ -5,6 +5,7 @@
 ## generale
 
 - [ ] cerca di fare xclip che incolli in automatico
+- [ ] leva angoli tondi da rofi
 - [ ] cambia file manager che fa cacare il cazzo
 - [x] committa dunst
 - [x] committa sxhkd
