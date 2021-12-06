@@ -31,6 +31,7 @@
 
 ## zsh
 
+- [ ] cambia il celeste che mi fa cagare abbastanza
 - [x] sposta la cosa dei tasti fn da un'altra parte, che non è possibile che ogni volta che parte il terminale riscrive il file, è ridicolo e stupido
 - [x] il tema è osceno, non capisco niente, e l'autocompletamento fish-like non funziona e non capisco perché
 
