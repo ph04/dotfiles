@@ -3,7 +3,7 @@ title = Dunst
 class = Dunst
 monitor = 0
 follow = mouse
-geometry = "300x6-30+60" # top right
+offset = 41x92
 indicate_hidden = yes
 shrink = yes
 
@@ -44,12 +44,6 @@ browser = firefox
 mouse_left_click = close_current
 mouse_middle_click = do_action
 mouse_right_click = close_all
-
-[shortcuts]
-close = ctrl+space
-close_all = ctrl+shift+space
-history = ctrl+Escape
-context = ctrl+shift+period
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
