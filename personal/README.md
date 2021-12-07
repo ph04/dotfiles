@@ -4,6 +4,7 @@
 
 ## generale
 
+- [ ] non capisco con che cazzo di criterio funzionano e non funzionano i tasti fn, non ho parole
 - [ ] cerca di fare xclip che incolli in automatico
 - [ ] leva angoli tondi da rofi
 - [ ] cambia file manager che fa cacare il cazzo
