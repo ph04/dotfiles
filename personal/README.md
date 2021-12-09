@@ -4,7 +4,7 @@
 
 ## generale
 
-- [ ] aggiungi sct a bspwm probabilmente sct 4400
+- [ ] aggiungi sct a bspwm probabilmente sct 4100
 - [ ] non capisco con che cazzo di criterio funzionano e non funzionano i tasti fn, non ho parole
 - [ ] cerca di fare xclip che incolli in automatico
 - [ ] leva angoli tondi da rofi
