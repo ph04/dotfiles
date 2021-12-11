@@ -3,7 +3,7 @@ title = Dunst
 class = Dunst
 monitor = 0
 follow = mouse
-offset = 41x92
+offset = 40x91
 indicate_hidden = yes
 shrink = yes
 
