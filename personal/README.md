@@ -8,6 +8,7 @@
 - [ ] non capisco con che cazzo di criterio funzionano e non funzionano i tasti fn, non ho parole
 - [ ] cerca di fare xclip che incolli in automatico
 - [ ] cambia file manager che fa cacare il cazzo
+- [ ] se hai voglia, cambia tema bat (proprio perché non ho un cazzo da fare ceh)
 - [x] committa dunst
 - [x] committa sxhkd
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
@@ -85,7 +86,7 @@
 ## nvim
 
 - [ ] cambia quella cosa fastidiosissima di coc
-- [ ] cambia tema che deve matchare il resto ora
+- [ ] cambia tema airline che deve matchare il resto ora
 - [x] sostanzialmente non funziona un cazzo, ma perche non ho reinstallato plug, poi da li forse le cose si autosistemano
 - [x] cambia tema a nvim che fa cacare il cazzo
 
