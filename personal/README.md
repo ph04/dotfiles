@@ -4,10 +4,9 @@
 
 ## generale
 
-- [ ] aggiungi sct a bspwm probabilmente sct 4100
+- [x] aggiungi sct a bspwm probabilmente sct 4100
 - [ ] non capisco con che cazzo di criterio funzionano e non funzionano i tasti fn, non ho parole
 - [ ] cerca di fare xclip che incolli in automatico
-- [ ] leva angoli tondi da rofi
 - [ ] cambia file manager che fa cacare il cazzo
 - [x] committa dunst
 - [x] committa sxhkd
@@ -32,9 +31,9 @@
 - [ ] considera di cambiare l'immagine di doom (a dire il vero no so se si può fare kek)
 - [ ] vedi se c'è un tema migliore per doom
 - [ ] metti autosave
-- [ ] metti uno splash text
+- [x] metti uno splash text
 - [ ] prova a vedere se puoi cambiare leggermente la funzione
-- [ ] committa tutto
+- [x] committa tutto
 - [x] metti opacità all'85%
 - [x] committa tutto
 
@@ -54,8 +53,8 @@
 
 ## betterlockscreen
 
-- [ ] sistema betterlockscreen
 - [ ] fai in modo che appaia dopo la sospensione
+- [x] sistema betterlockscreen
 
 ## polybar
 
@@ -78,6 +77,7 @@
 
 ## dunst
 
+- [x] sposta di 1px in alto a sinistra
 - [x] sistema la posizione di quando spawna per matchare le finestre (solo se hai voglia però)
 - [x] fixa le shortcut (a quanto pare era un problema che non derivava da dunst ma da sxhkd)
 - [x] il font del titolo è rotto
@@ -88,3 +88,7 @@
 - [ ] cambia tema che deve matchare il resto ora
 - [x] sostanzialmente non funziona un cazzo, ma perche non ho reinstallato plug, poi da li forse le cose si autosistemano
 - [x] cambia tema a nvim che fa cacare il cazzo
+
+## rofi
+
+- [ ] leva angoli tondi da rofi
