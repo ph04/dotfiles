@@ -91,4 +91,4 @@
 
 ## rofi
 
-- [ ] leva angoli tondi da rofi
+- [x] leva angoli tondi da rofi
