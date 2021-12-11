@@ -78,6 +78,7 @@
 
 ## dunst
 
+- [ ] autoelimina le notifiche automaticamente dopo un tot di tempo, da aggiungere e anche in fretta
 - [x] sposta di 1px in alto a sinistra
 - [x] sistema la posizione di quando spawna per matchare le finestre (solo se hai voglia però)
 - [x] fixa le shortcut (a quanto pare era un problema che non derivava da dunst ma da sxhkd)
