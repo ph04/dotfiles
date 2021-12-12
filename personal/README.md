@@ -6,10 +6,8 @@
 
 - [ ] capire come allungare il tempo della foto copiata a spectacle
 - [ ] non capisco con che cazzo di criterio funzionano e non funzionano i tasti fn, non ho parole
-- [ ] cerca di fare xclip che incolli in automatico
 - [ ] cambia file manager che fa cacare il cazzo
 - [ ] se hai voglia, cambia tema bat (proprio perché non ho un cazzo da fare ceh)
-- [x] aggiungi sct a bspwm probabilmente sct 4100
 - [x] committa dunst
 - [x] committa sxhkd
 - [x] FAI IL BACKUP CON TIMESHIFT, FOTTUTAMENTE FONDAMENTALE, E SOPRATTUTTO FALLO FUNZIONARE
@@ -17,6 +15,12 @@
 - [x] fai lo swap file coglione
 - [x] disinstalla cargo e installa rustup
 - [x] il comando dei tasti fn non può essere runnato dove viene runnato attualmente, perche probabilemnte essendo sudo non funziona, quindi va spostato ma non so dove
+
+## bspwm
+
+- [ ] fai in modo che zathura si apra sempre in modalità fullscreen (copia emacs)
+- [ ] cerca di fare xclip che incolli in automatico
+- [x] aggiungi sct a bspwm probabilmente sct 4100
 
 ## sddm
 
