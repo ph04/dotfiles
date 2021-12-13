@@ -18,8 +18,8 @@
 
 ## speedcrunch
 
-- [ ] committa il tema
-- [ ] cambia il tema
+- [x] committa il tema
+- [x] cambia il tema
 
 ## bspwm
 
