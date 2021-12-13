@@ -16,6 +16,11 @@
 - [x] disinstalla cargo e installa rustup
 - [x] il comando dei tasti fn non può essere runnato dove viene runnato attualmente, perche probabilemnte essendo sudo non funziona, quindi va spostato ma non so dove
 
+## speedcrunch
+
+- [ ] committa il tema
+- [ ] cambia il tema
+
 ## bspwm
 
 - [ ] fai in modo che zathura si apra sempre in modalità fullscreen (copia emacs)
