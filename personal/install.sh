@@ -58,3 +58,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # MANUAL
 # add "zsh-autosuggestions" to the plugins (every plugin in a different line)
 # restart the terminal
+paru -Syu
