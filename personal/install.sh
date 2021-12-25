@@ -41,11 +41,13 @@ paru -Syu
 # - kitty
 # - Zsh
 # - bat
-# - openbox
-# - sddm
+# - Openbox
+# - SDDM
 paru -S firefox neofetch neovim kitty zsh bat openbox sddm
 paru -Syu
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Enable SDDM
+sudo systemctl enable sddm.service
