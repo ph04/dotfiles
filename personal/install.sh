@@ -3,6 +3,7 @@
 # ##################### DON'T USE THIS, IT'S IN WIP #####################
 
 # MANUALLY CHECK THAT YOU HAVE INTERNET ACCESS
+# *use NetworkManager*
 
 # Install
 # - base-devel
