@@ -41,7 +41,10 @@ paru -Syu
 # - kitty
 # - Zsh
 # - bat
-paru -S firefox neofetch neovim kitty zsh bat
+# - openbox
+# - sddm
+paru -S firefox neofetch neovim kitty zsh bat openbox sddm
+paru -Syu
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
