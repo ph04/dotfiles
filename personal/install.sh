@@ -14,7 +14,7 @@
 # - firefox
 # - neofetch
 # - git
-sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit firefox neofetch git 
+sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git 
 sudo pamcan -Syu
 
 # Make AUR directory
