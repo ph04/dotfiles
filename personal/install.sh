@@ -16,6 +16,12 @@
 sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit firefox neofetch git 
 sudo pamcan -Syu
 
+# Make AUR directory
+mkdir $HOME/Scaricati
+cd $HOME/Scaricati
+mkdir AUR
+cd AUR
+
 # Install paru
 git clone https://aur.archlinux.org/paru.git
 cd paru
