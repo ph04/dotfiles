@@ -13,3 +13,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # add "zsh-autosuggestions" to the plugins (every plugin in a different line)
 # restart the terminal
 paru -Syu
+
+# Add Kitty in Openbox menu
+# add a terminal entry for Kitty in /etc/xdg/openbox/menu.xml
