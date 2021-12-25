@@ -23,11 +23,14 @@ cd $HOME/Scaricati
 mkdir AUR
 cd AUR
 
-# Install paru
+# Install paru and cargo
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
+paru
+paru -Syu
 
-# Install Rust from rustup
+# Remove cargo and install Rust from rustup
+paru -R rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 export PATH="$PATH:$HOME/.cargo/bin"
