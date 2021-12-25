@@ -40,7 +40,8 @@ paru -Syu
 # - neovim
 # - kitty
 # - Zsh
-paru -S firefox neofetch neovim kitty zsh
+# - bat
+paru -S firefox neofetch neovim kitty zsh bat
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
