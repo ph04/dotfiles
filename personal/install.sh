@@ -11,8 +11,6 @@
 # - alsa
 # - gpu drivers
 # - xorg
-# - firefox
-# - neofetch
 # - git
 sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git 
 sudo pamcan -Syu
@@ -35,3 +33,8 @@ paru -R rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 export PATH="$PATH:$HOME/.cargo/bin"
 paru -Syu
+
+# Install
+# - firefox
+# - neofetch
+paru -S firefox neofetch
