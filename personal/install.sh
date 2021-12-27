@@ -44,7 +44,8 @@ paru -Syu
 # - ripgrep
 # - Openbox
 # - SDDM
-paru -S firefox neofetch neovim kitty zsh bat openbox sddm ripgrep
+# - sct
+paru -S firefox neofetch neovim kitty zsh bat openbox sddm ripgrep sct
 paru -Syu
 
 # Install Oh My Zsh
