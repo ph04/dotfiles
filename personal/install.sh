@@ -12,7 +12,8 @@
 # - gpu drivers
 # - xorg
 # - git
-sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git 
+# - picom (Jonaburg fork)
+sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git picom-jonaburg-git
 sudo pamcan -Syu
 
 # Make AUR directory
