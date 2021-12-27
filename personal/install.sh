@@ -17,8 +17,8 @@ sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server
 sudo pamcan -Syu
 
 # Make AUR directory
-mkdir $HOME/Scaricati
-cd $HOME/Scaricati
+mkdir $HOME/Downloads
+cd $HOME/Downloads
 mkdir AUR
 cd AUR
 
@@ -46,7 +46,10 @@ paru -Syu
 # - man
 # - SDDM
 # - sct
-paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct
+# - htop
+# - btop
+
+paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop
 paru -Syu
 
 # Install Oh My Zsh
@@ -55,4 +58,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Enable SDDM
 sudo systemctl enable sddm.service
 
+# Create fonts folder
 mkdir $HOME/.fonts
