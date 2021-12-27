@@ -43,10 +43,10 @@ paru -Syu
 # - Zsh
 # - bat
 # - ripgrep
-# - Openbox
+# - man
 # - SDDM
 # - sct
-paru -S firefox neofetch neovim kitty zsh bat openbox sddm ripgrep sct
+paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct
 paru -Syu
 
 # Install Oh My Zsh
@@ -54,3 +54,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # Enable SDDM
 sudo systemctl enable sddm.service
+
+mkdir $HOME/.fonts
