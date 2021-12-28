@@ -11,8 +11,10 @@
 # - alsa
 # - gpu drivers
 # - xorg
+# - xinit
+# - xrandr
 # - git
-sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git
+sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit xorg-xrandr git
 sudo pamcan -Syu
 
 # Make AUR directory
