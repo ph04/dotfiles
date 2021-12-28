@@ -50,7 +50,8 @@ paru -Syu
 # - htop
 # - btop
 # - picom (Jonaburg fork)
-paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop picom-jonaburg-git
+# - pip3
+paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop picom-jonaburg-git python-pip
 paru -Syu
 
 # Install Oh My Zsh
@@ -61,3 +62,6 @@ sudo systemctl enable sddm.service
 
 # Create fonts folder
 mkdir $HOME/.fonts
+
+# Add $HOME/.local/bin to PATH for some pip packages
+export PATH='$PATH:$HOME/.local/bin'
