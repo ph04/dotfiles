@@ -12,8 +12,7 @@
 # - gpu drivers
 # - xorg
 # - git
-# - picom (Jonaburg fork)
-sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git picom-jonaburg-git
+sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit git
 sudo pamcan -Syu
 
 # Make AUR directory
@@ -48,8 +47,8 @@ paru -Syu
 # - sct
 # - htop
 # - btop
-
-paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop
+# - picom (Jonaburg fork)
+paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop picom-jonaburg-git
 paru -Syu
 
 # Install Oh My Zsh
