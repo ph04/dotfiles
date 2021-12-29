@@ -16,3 +16,5 @@ paru -Syu
 
 # Fix keyboard layout
 localectl set-x11-keymap it
+
+# Add a swapfile, based on how many GB of RAM you have
