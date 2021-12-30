@@ -8,12 +8,12 @@
 # Install
 # - base-devel
 # - kernel headers
-# - alsa
-# - gpu drivers
-# - xorg
+# - ALSA
+# - GPU drivers
+# - Xorg
 # - xinit
-# - xrandr
-# - git
+# - XRandR
+# - Git
 sudo pacman -S base-devel linux-headers alsa-utils xf86-video-amdgpu xorg-server xorg-xinit xorg-xrandr git
 sudo pamcan -Syu
 
@@ -43,9 +43,9 @@ paru -Syu
 # - kitty
 # - Zsh
 # - bat
-# - ripgrep
 # - man
 # - SDDM
+# - ripgrep
 # - sct
 # - htop
 # - btop
