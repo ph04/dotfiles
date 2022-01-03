@@ -16,7 +16,6 @@ getcolors () {
 	MAGENTA=$(xrdb -query | grep 'color5:'| awk '{print $NF}')
 	CYAN=$(xrdb -query | grep 'color6:'| awk '{print $NF}')
 	WHITE=$(xrdb -query | grep 'color7:'| awk '{print $NF}')
-	#PINK=$(echo "#c394b4")
 	PINK=$(echo "#C97D54")
 }
 getcolors
@@ -85,7 +84,10 @@ xsetroot -cursor_name left_ptr &
 nitrogen --restore &
 
 exec picom --experimental-backends &
-exec polybar main -c $HOME/.config/polybar/config &
+exec polybar left -c $HOME/.config/polybar/config &
+exec polybar right -c $HOME/.config/polybar/config &
+exec polybar center -c $HOME/.config/polybar/config &
+exec polybar centerspotify -c $HOME/.config/polybar/config &
 exec polybar-msg cmd restart &
 #exec sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode" &
 exec ~/.config/bspwm/scripts/fn_fix.sh &
