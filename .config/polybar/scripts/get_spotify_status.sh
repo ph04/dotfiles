@@ -48,4 +48,3 @@ else
         playerctl --player=$PLAYER metadata --format "$FORMAT"
     fi
 fi
-

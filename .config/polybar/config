@@ -6,7 +6,7 @@
 ; ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
                                     
 [colors]
-background = #30393d
+background = #00000000
 background-alt = #d1c4e9
 foreground = #e5e9f0
 foreground-alt = #282e3a
@@ -14,7 +14,6 @@ primary = #ffb52a
 secondary = #e60053
 alert = #B48EAD
 
-; cyan = #88C0D0
 cyan = #9891B6
 aqua = #8FBCBB
 red = #BF616A
@@ -23,20 +22,19 @@ green = #A3BE8C
 orange = #D08770
 magenta = #BF616A
 white = #D8DEE9
-; pink = #c394b4
 pink = #C97D54
 idk = #c4d99c
 blue = #81a1c1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-[bar/main]
-width = 1880
+[bar/left]
+width = 226
 height = 25
-radius = 0.0
+radius = 5.0
 fixed-center = true
 
-offset-x = 20
+offset-x = 15
 offset-y = 15
 
 background = ${colors.background}
@@ -51,13 +49,99 @@ border-color = ${colors.background}
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = "Iosevka Nerd Font:style=Bold:size=10;3"
-font-1 = "Mochiy Pop One:pixelsize=11;3"
-font-2 = "Iosevka Nerd Font:style=Bold:size=14;4"
+font-0 = "Iosevka Nerd Font:style=Bold:size=12;2"
 
 modules-left = bspwm
-modules-center = windowtitle spotify
-modules-right = cputemp gputemp memory volume date powermenu
+
+cursor-click = pointer
+cursor-scroll = pointer
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[bar/right]
+width = 584
+height = 25
+radius = 5.0
+fixed-center = true
+
+offset-x = 1320
+offset-y = 15
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+border-size = 5
+border-color = ${colors.background} 
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "Iosevka Nerd Font:style=Bold:size=10;2"
+
+modules-left = cputemp gputemp memory volume date
+
+cursor-click = pointer
+cursor-scroll = pointer
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[bar/center]
+width = 332
+height = 25
+radius = 5.0
+fixed-center = true
+
+offset-x = 500
+offset-y = 15
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+border-size = 5
+border-color = ${colors.background} 
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "Iosevka Nerd Font:style=Bold:size=10;2"
+
+modules-left = windowtitle
+
+cursor-click = pointer
+cursor-scroll = pointer
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[bar/centerspotify]
+width = 213
+height = 25
+radius = 5.0
+fixed-center = true
+
+offset-x = 850
+offset-y = 15
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+border-size = 5
+border-color = ${colors.background} 
+
+module-margin-left = 0
+module-margin-right = 0
+
+font-0 = "Iosevka Nerd Font:style=Bold:size=10;2"
+
+modules-left = spotify
 
 cursor-click = pointer
 cursor-scroll = pointer
@@ -67,38 +151,42 @@ cursor-scroll = pointer
 [module/bspwm]
 type = internal/bspwm
 
-ws-icon-0 = "1;一"
-ws-icon-1 = "2;二"
-ws-icon-2 = "3;三"
-ws-icon-3 = "4;四"
-ws-icon-4 = "5;五"
-ws-icon-5 = "6;六"
-ws-icon-6 = "7;七"
-ws-icon-7 = "8;八"
-ws-icon-8 = "9;九"
+ws-icon-0 = "1;α"
+ws-icon-1 = "2;β"
+ws-icon-2 = "3;γ"
+ws-icon-3 = "4;δ"
+ws-icon-4 = "5;ε"
+ws-icon-5 = "6;ζ"
+ws-icon-6 = "7;η"
+ws-icon-7 = "8;θ"
+ws-icon-8 = "9;ι"
 
 label-focused = %icon%
+label-focused-font = 2
 label-focused-background = ${colors.pink}
 label-focused-underline = ${colors.primary}
 label-focused-foreground = ${colors.foreground-alt}
 label-focused-padding = 1
 
 label-occupied = %icon%
+label-occupied-font = 2
 label-occupied-background = ${colors.cyan}
 label-occupied-foreground = ${colors.foreground-alt}
 label-occupied-padding = 1
 
 label-urgent = %icon%
+label-urgent-font = 2
 label-urgent-background = ${colors.red}
 label-urgent-foreground = #e5e9f0
 label-urgent-padding = 1
 
 label-empty = %icon% 
-label-empty-background = ${colors.background}
-label-empty-foreground = #e5e9f0
+label-empty-font = 2
+label-empty-background = ${colors.background-alt}
+label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 1
 
-label-separator = " "
+label-separator = ""
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -106,14 +194,15 @@ label-separator = " "
 type = internal/xwindow
 format = <label>
 format-background = ${colors.cyan}
-format-foreground = ${colors.background}
+format-foreground = ${colors.foreground-alt}
 format-padding = 3
 label = "  %title%"
-label-maxlen = 60
-label-empty = " "
+label-maxlen = 40
+label-minlen = 40
+label-empty = "                                       "
 label-empty-font = 3
 label-separator = " "
-label-empty-foreground = ${colors.background}
+label-empty-foreground = ${colors.foreground-alt}
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -127,14 +216,14 @@ ramp-volume-1 =墳
 ramp-volume-1-font = 2
 ramp-volume-2 =墳
 ramp-volume-2-font = 2
-format-volume-background = ${colors.cyan}
-format-volume-foreground = ${colors.background}
+format-volume-background = ${colors.background-alt}
+format-volume-foreground = ${colors.foreground-alt}
 format-volume-padding = 1
 
 format-muted = <label-muted>
-label-muted =" muted"
-format-muted-background = ${colors.cyan}
-format-muted-foreground = ${colors.background}
+label-muted = "MUTED"
+format-muted-background = ${colors.background-alt}
+format-muted-foreground = ${colors.foreground-alt}
 format-muted-padding = 1
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -145,7 +234,7 @@ interval = 2
 format-prefix = "﨏  "
 format = <label>
 format-background = ${colors.cyan}
-format-foreground = ${colors.background}
+format-foreground = ${colors.foreground-alt}
 format-padding = 1
 exec = ~/.config/polybar/scripts/cputemp.sh
 
@@ -156,8 +245,8 @@ type = custom/script
 interval = 2
 format-prefix = "﨏  "
 format = <label>
-format-background = ${colors.cyan}
-format-foreground = ${colors.background}
+format-background = ${colors.background-alt}
+format-foreground = ${colors.foreground-alt}
 format-padding = 1
 exec = ~/.config/polybar/scripts/gputemp.sh
 
@@ -168,8 +257,8 @@ type = custom/script
 tail = true
 format-prefix = "  "
 format = <label>
-format-background = ${colors.pink}
-format-foreground = ${colors.background}
+format-background = ${colors.background-alt}
+format-foreground = ${colors.foreground-alt}
 format-padding = 3
 exec = ~/.config/polybar/scripts/scroll_spotify_status.sh
 
@@ -184,8 +273,8 @@ format = <label>
 format-prefix = " ﬙"
 format-prefix-font = 1
 format-background = ${colors.cyan}
-format-foreground = ${colors.background}
-format-prefix-foreground = ${colors.background}
+format-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.foreground-alt}
 
 label = "  %mb_used% "
 
@@ -195,92 +284,25 @@ label = "  %mb_used% "
 type = internal/date
 interval = 1
 
-date = 
-date-alt = "  %A, %b %d -"
-
-time = "  %H:%M:%S "
-time-alt = "%H:%M:%S  "
+time = "   %A, %d %b - %H:%M:%S "
 
 format-prefix-padding = 2
 format-prefix-font = 2
-format-prefix-foreground = ${colors.background}
+format-prefix-foreground = ${colors.foreground-alt}
 format-background = ${colors.cyan}
-format-foreground = ${colors.background}
+format-foreground = ${colors.foreground-alt}
 
-label = %date% %time%
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-[module/powermenu]
-type = custom/menu
-
-expand-right = true
-
-format-spacing = 1
-
-label-open = "   "
-label-open-foreground = ${colors.background}
-label-open-background = ${colors.red}
-label-close = "  Cancel "
-label-close-foreground = ${colors.background}
-label-close-background = ${colors.red}
-label-separator = ""
-label-separator-foreground = ${colors.foreground}
-
-menu-0-0 = "    "
-menu-0-0-font = 1
-menu-0-0-exec = #powermenu.open.1
-menu-0-0-background = ${colors.red}
-menu-0-0-foreground = ${colors.background}
-
-menu-0-1 = "   "
-menu-0-1-font = 1
-menu-0-1-exec = #powermenu.open.2
-menu-0-1-background = ${colors.red}
-menu-0-1-foreground = ${colors.background}
-
-menu-0-2 = "  "
-menu-0-2-font = 3
-menu-0-2-exec = #powermenu.open.3
-menu-0-2-background = ${colors.red}
-menu-0-2-foreground = ${colors.background}
-; menu-0-2-padding = 1
-
-menu-0-3 = "  "
-menu-0-3-font = 1
-menu-0-3-exec = #powermenu.open.4
-menu-0-3-background = ${colors.red}
-menu-0-3-foreground = ${colors.background}
-
-menu-1-0 = 
-menu-1-0-exec = #powermenu.open.0
-menu-1-1 = 
-menu-1-1-exec = betterlockscreen -l blur 1.0
-
-menu-2-0 = 
-menu-2-0-exec = #powermenu.open.0
-menu-2-1 = 
-menu-2-1-exec = systemctl suspend
-
-menu-3-0 = 
-menu-3-0-exec = #powermenu.open.0
-menu-3-1 = 
-menu-3-1-exec = reboot
-
-menu-4-0 = 
-menu-4-0-exec = #powermenu.open.0
-menu-4-1 = 
-menu-4-1-exec = poweroff
+label = %time%
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
-;pseudo-transparency = false
+; compositing-background = xor
+; compositing-background = screen
+; compositing-foreground = source
+; compositing-border = over
+; pseudo-transparency = true
 
 [global/wm]
 ; margin-top = 0
