@@ -1,4 +1,4 @@
-![test](../waterfalls.jpg)
+![test](../stars.jpg)
 
 # COSE DA FIXARE
 
