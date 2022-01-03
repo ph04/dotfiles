@@ -11,6 +11,8 @@
 
 ## speedcrunch
 
+- [x] done
+
 ## bspwm
 
 - [ ] fai in modo che zathura si apra sempre in modalità fullscreen (copia emacs)
@@ -41,6 +43,7 @@
 
 ## picom
 
+- [ ] cambia il tema accordingly
 - [ ] capire perché dopo la sospensione e anche dopo che lo schermo è andato in stand by (che non so è una cosa hardware o software) non si riavvia da solo
 - [ ] rimouvi blur da telegram CONTROLLA SE FIXATO
 - [ ] rimuovi blur da zoom CONTROLLA SE FIXATO
@@ -66,4 +69,5 @@
 
 ## rofi
 
+- [ ] camba il tema accordingly
 - [ ] aggiungi powermenu
