@@ -56,6 +56,7 @@
 
 ## polybar
 
+- [ ] fixa il bug dei giorni che hanno lunghezze diverse
 - [ ] fixa il problema del volume allo 0-9% e al >= 100%
 - [ ] fai anche audio del mic
 - [ ] capisci se puoi togliere polybar quando vai in fullscreen mode (a dire il vero non so neanche se è un problema di polybar o di bspwm, da capire) NO PIÙ CHE ALTRO CAPIRE PERCHE OGNI TANTO LO FA E OGNI TANTO NO BOH (credo lo faccia solamente dopo che lo schermo è andato in stand by)
