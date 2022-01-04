@@ -56,6 +56,7 @@
 
 ## polybar
 
+- [ ] discord in call è più piccolo??
 - [ ] fixa il bug dei giorni che hanno lunghezze diverse
 - [ ] fixa il problema del volume allo 0-9% e al >= 100%
 - [ ] fai anche audio del mic
