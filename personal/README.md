@@ -4,6 +4,7 @@
 
 ## generale
 
+- [ ] rimuovi script spotify per consumo ram
 - [ ] inserisci comando per color picker xcolor
 - [ ] capire come allungare il tempo della foto copiata a spectacle
 - [ ] cambia file manager che fa cacare il cazzo, usa thunar
