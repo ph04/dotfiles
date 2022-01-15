@@ -87,7 +87,7 @@ exec picom --experimental-backends &
 exec polybar left -c $HOME/.config/polybar/config &
 exec polybar right -c $HOME/.config/polybar/config &
 exec polybar center -c $HOME/.config/polybar/config &
-exec polybar centerspotify -c $HOME/.config/polybar/config &
+#exec polybar centerspotify -c $HOME/.config/polybar/config &
 exec polybar-msg cmd restart &
 #exec sudo su -c "echo -n 0x02 > /sys/module/hid_apple/parameters/fnmode" &
 exec ~/.config/bspwm/scripts/fn_fix.sh &
