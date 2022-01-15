@@ -4,10 +4,11 @@
 
 ## generale
 
-- [ ] inserisci comando per color picker xcolor
+
 - [ ] capire come allungare il tempo della foto copiata a spectacle
 - [ ] cambia file manager che fa cacare il cazzo, usa thunar
 - [ ] se hai voglia, cambia tema bat (proprio perché non ho un cazzo da fare ceh)
+- [x] inserisci comando per color picker xcolor
 - [x] rimuovi script spotify per consumo cpu
 
 ## speedcrunch
