@@ -4,7 +4,7 @@
 
 ## generale
 
-
+- [ ] cerca di fare xclip che incolli in automatico
 - [ ] capire come allungare il tempo della foto copiata a spectacle
 - [ ] cambia file manager che fa cacare il cazzo, usa thunar
 - [ ] se hai voglia, cambia tema bat (proprio perché non ho un cazzo da fare ceh)
@@ -18,8 +18,7 @@
 ## bspwm
 
 - [ ] fai in modo che zathura si apra sempre in modalità fullscreen (copia emacs)
-- [ ] cerca di fare xclip che incolli in automatico
-- [ ] aggiorna bspwm con le barre polybar
+- [x] aggiorna bspwm con le barre polybar
 
 ## sddm
 
@@ -32,11 +31,8 @@
 
 ## emacs
 
-- [ ] considera di cambiare l'immagine di doom (a dire il vero no so se si può fare kek)
-- [ ] vedi se c'è un tema migliore per doom
 - [ ] metti autosave
 - [x] metti uno splash text
-- [ ] prova a vedere se puoi cambiare leggermente la funzione
 - [x] committa tutto
 - [x] metti opacità all'85%
 - [x] committa tutto
@@ -54,7 +50,7 @@
 
 ## betterlockscreen
 
-- [ ] fai in modo che appaia dopo la sospensione
+- [ ] fai in modo che appaia dopo la sospensione (probabilmente è una roba di systemctl)
 
 ## polybar
 
@@ -67,7 +63,6 @@
 
 ## dunst
 
-- [ ] dunst fork per i bordi arrotondati credo, che palle
 - [ ] autoelimina le notifiche automaticamente dopo un tot di tempo, da aggiungere e anche in fretta
 
 ## nvim
@@ -79,5 +74,4 @@
 
 - [ ] controlla cos'è quell'alone strano
 - [ ] camba il tema accordingly, rifallo tutto
-- [ ] cambia bordi
 - [ ] aggiungi powermenu
