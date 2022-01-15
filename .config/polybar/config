@@ -284,7 +284,7 @@ label = "  %mb_used% "
 type = internal/date
 interval = 1
 
-time = "   %A, %d %b - %H:%M:%S "
+time = "   %a, %d %b %y - %H:%M:%S "
 
 format-prefix-padding = 2
 format-prefix-font = 2
