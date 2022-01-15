@@ -59,12 +59,12 @@ cursor-scroll = pointer
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [bar/right]
-width = 584
+width = 577
 height = 25
 radius = 5.0
 fixed-center = true
 
-offset-x = 1320
+offset-x = 1328
 offset-y = 15
 
 background = ${colors.background}
