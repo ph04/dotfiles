@@ -126,7 +126,7 @@ super + alt + {Left,Right,Up,Down}
 alt + shift + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-##---------- Missing Keys -----------###
+##---------- Missing Keys -----------##
 
 ctrl + shift + z
 	echo "<" | tr -d '\n' | xclip -selection clipboard
@@ -150,5 +150,8 @@ super + shift + f
 
 super + e
 	dolphin
+
+super + alt + c
+	xcolor | xclip -selection clipboard
 
 ##---------- EOF ----------##
