@@ -51,7 +51,9 @@ paru -Syu
 # - btop
 # - picom (Jonaburg fork)
 # - pip3
-paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop picom-jonaburg-git python-pip
+# - unzip
+# - unrar
+paru -S firefox neofetch neovim kitty zsh bat man sddm ripgrep sct htop btop picom-jonaburg-git python-pip unzip unrar
 paru -Syu
 
 # Install Oh My Zsh
